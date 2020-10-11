@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Biblioteka</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__headding">
+				<h1>Biblioteka</h1>
+			</div>
+		</header>
+		<main class="main">
+			<div class="main__left-section">
+				<picture>
+					<source srcset="img/library.webp">
+					<img src="img/library.jpg" alt="">
+				</picture>
+			</div>
+			<div class="main__content">
+				<div class="main__list list">
+					<h3>W naszych zbiorach znajdziesz działa następujących autorów</h3>
+					<ul class="list__authors">
+						<li class="list__name">Jan Kasprowicz</li>
+						<li class="list__name">Jan Brzechwa</li>
+						<li class="list__name">Julian Tuwin</li>
+						<li class="list__name">Janusz Korczak</li>
+						<li class="list__name">i wiele innych</li>
+					</ul>
+				</div>
+				<form action="#" class="main__form form">
+					<div class="form__container">
+						<div class="form__heading">
+							<h2>Dodaj nowego czytelnika</h2>
+						</div>
+						<section class="form__input">
+							<p>Imię</p>
+							<input type="text">
+						</section>
+						<section class="form__input">
+							<p>Nazwisko</p>
+							<input type="text">
+						</section>
+						<section class="form__input">
+							<p>Rok urodzenia</p>
+							<input type="text">
+						</section>
+						<section class="form__input">
+							<p>Średnia ilość wypożycień</p>
+							<input type="text">
+						</section>
+						<section class="form__input">
+							<input type="reset" value="CZYŚĆ">
+							<input type="submit" value="DODAJ">
+						</section>
+					</div>
+				</form>
+			</div>
+			<div class="main__right-section right-section">
+				<div class="container">
+					<div class="right-section__heading">
+						<p>Kontakt</p>
+					</div>
+					<div class="right-section__image">
+						<picture>
+							<source srcset="img/Logo.webp">
+							<img src="img/Logo.png" alt="">
+						</picture>
+					</div>
+					<address class="right-section__address">
+						<ul>
+							<li>ul. Czytelnicza 25</li>
+							<li>12-120 Książkowice</li>
+							<li>tel. 123123123</li>
+							<li>e-mail: biuro@biblioteka.pl</li>
+						</ul>
+					</address>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<p>Autor strony: Nazar Shevtsov</p>
+		</footer>
+	</div>
+</body>
+
+</html>
